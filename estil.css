@@ -59,8 +59,10 @@
       grid-gap: 10px;
       background-color: #FF9B00;
       padding: 10px;
+      background:url(https://ichef.bbci.co.uk/news/800/cpsprodpb/C047/production/_119832294_gettyimages-1234564256.jpg);
     }
-.item6{visibility: hidden;}
-    
+    .item6{ 
+      visibility: hidden;
+    }
     
   }
