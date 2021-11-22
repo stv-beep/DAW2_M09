@@ -1,11 +1,11 @@
 /*flexbox*/
-.flex-container {
+.flex-prova {
     display: flex;
     flex-wrap: nowrap;
     background-color: DodgerBlue;
   }
   
-  .flex-container > div {
+  .flex-prova > div {
     background-color: #c7c1c1;
     width: 100px;
     margin: 10px;
@@ -22,7 +22,7 @@
   .item4 { grid-area: right; }
   .item5 { grid-area: footer; }
   
-  .grid-container {
+  .grid {
     display: grid;
     grid-template-areas:
       'header header header header header header'
@@ -33,7 +33,7 @@
     padding: 10px;
   }
   
-  .grid-container > div {
+  .grid > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
@@ -50,4 +50,5 @@
     body {
       background-color: lightseagreen;
     }
+    
   }
